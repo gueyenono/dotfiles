@@ -142,3 +142,4 @@ export NVM_DIR="$HOME/.nvm"
 # Use neovim by default when trying to edit a file in sudo mode with sudoedit or sudo -e or sudoedit
 export SUDO_EDITOR=/opt/nvim-linux64/bin/nvim
 . "$HOME/.cargo/env"
+export NIX_PATH=$HOME/.nix-defexpr/channels:/nix/var/nix/profiles/per-user/root/channels${NIX_PATH:+:$NIX_PATH}
